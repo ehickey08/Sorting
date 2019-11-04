@@ -18,10 +18,11 @@ def bubble_sort ( arr ):
     swapped = True
     while swapped:
         swapped = False
-        for i in range(len(arr)-1):
-            if arr[i] > arr [i+1]:
-                arr[i], arr[i+1] = arr[i+1], arr[i]
-                swapped = True
+        for i in range(len(arr) - 1):
+            for j in range(len(arr) - 1 - i):
+                if arr[j] > arr[j + 1]:
+                    arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                    swapped = True
 
     return arr
 
