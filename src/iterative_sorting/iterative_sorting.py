@@ -13,7 +13,6 @@ def selection_sort ( arr ):
         # TO-DO: swap
 
     return arr
-
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort ( arr ):
     swapped = True
