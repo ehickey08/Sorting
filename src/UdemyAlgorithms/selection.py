@@ -1,7 +1,7 @@
-def selection_sort(arr):
-    for i in range(len(arr) -1):
+def selection_sort_udemy ( arr ):
+    for i in range(len(arr) - 1):
         smallest_index = i
-        for j in range(i+1, len(arr)):
+        for j in range(i + 1, len(arr)):
             if arr[j] < arr[smallest_index]:
                 smallest_index = j
 
