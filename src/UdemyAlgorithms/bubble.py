@@ -1,4 +1,4 @@
-def bubble_sort_udemy ( arr ):
+def bubble_sort_udemy(arr):
     for i in range(len(arr) - 1):
         for j in range(len(arr) - 1 - i):
             if arr[j] > arr[j + 1]:

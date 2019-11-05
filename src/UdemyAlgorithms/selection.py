@@ -1,4 +1,4 @@
-def selection_sort_udemy ( arr ):
+def selection_sort_udemy(arr):
     for i in range(len(arr) - 1):
         smallest_index = i
         for j in range(i + 1, len(arr)):
